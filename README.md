@@ -1,18 +1,18 @@
-# 👕 Fashion MNIST Classification using CNN
+# 👕 Fashion MNIST Classification using CNN (PyTorch)
 
 ## 📌 Overview
 
-This project implements a Convolutional Neural Network (CNN) to classify clothing images from the Fashion MNIST dataset. The model learns visual patterns and features to identify different fashion items.
+This project implements a Convolutional Neural Network (CNN) using PyTorch to classify images from the Fashion MNIST dataset into 10 different fashion categories.
 
 ## 📊 Dataset
 
-Fashion MNIST consists of:
+Fashion MNIST contains:
 
 * 70,000 grayscale images.
 * Image dimensions: 28 × 28 pixels.
 * 60,000 training images.
 * 10,000 testing images.
-* 10 different fashion categories.
+* 10 different clothing categories.
 
 ## 👗 Classes
 
@@ -27,39 +27,39 @@ Fashion MNIST consists of:
 9. Bag
 10. Ankle Boot
 
-## 🧠 Model Architecture
+## 🧠 CNN Architecture
 
-The CNN model consists of:
+The model uses:
 
 * Convolutional Layers
 * ReLU Activation
-* Max Pooling Layers
+* Max Pooling
 * Flatten Layer
-* Fully Connected Dense Layers
-* Softmax Output Layer
+* Fully Connected Layers
+* Output Layer for 10-class classification
 
 ## 🛠️ Technologies Used
 
 * Python
-* TensorFlow / Keras
+* PyTorch
+* Torchvision
 * NumPy
 * Matplotlib
 * Scikit-learn
 
-## 🚀 Project Workflow
+## 🚀 Workflow
 
-1. Load the Fashion MNIST dataset.
-2. Perform data preprocessing.
-3. Normalize pixel values.
-4. Build the CNN architecture.
-5. Train the model.
-6. Evaluate model performance.
-7. Visualize predictions.
+1. Load Fashion MNIST dataset using Torchvision.
+2. Preprocess and normalize images.
+3. Build CNN architecture using PyTorch.
+4. Train the model using a suitable optimizer and loss function.
+5. Evaluate the model on test data.
+6. Visualize predictions and performance.
 
 ## 📈 Results
 
-Model accuracy and performance metrics will be updated after training.
+Training accuracy, testing accuracy and performance visualizations will be updated after model evaluation.
 
 ## 🎯 Objective
 
-To understand and implement CNN architectures for image classification and gain practical experience in Deep Learning.
+To understand CNN architecture and gain practical experience in deep learning and computer vision using PyTorch.
